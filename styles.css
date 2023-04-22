@@ -77,3 +77,24 @@ body {
     height: 30px;
     margin-right: 10px;
   }
+
+  .project {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    border: 2px solid black;
+    text-align: center;
+  }
+
+  .project-left {
+    width: 10%;
+    padding: 10px;
+  }
+
+  .project-right {
+    width: 50%;
+    padding: 10px;
+  }
+  
+  
