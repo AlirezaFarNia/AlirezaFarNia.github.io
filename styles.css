@@ -43,7 +43,7 @@ body {
     border: 2px solid rgb(5, 185, 245);
     padding: 10px;
     margin-right: 10px;
-    margin-left: 25%;
+    margin-left: 15%;
   }
   
   .photo {
@@ -55,7 +55,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     border: 2px solid black;
     padding: 20px;
-    max-width: 60%; /* Adjust this value to change the width of the bio box */
+    max-width: 40%; /* Adjust this value to change the width of the bio box */
+    margin-left: 15%;
   }  
 
   footer {
