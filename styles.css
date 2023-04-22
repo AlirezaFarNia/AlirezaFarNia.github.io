@@ -1,52 +1,40 @@
 body {
-    margin: 30px;
+    margin: 40px;
     background-color: white;
     font-family: Arial, sans-serif;
-}
-
-header {
-    display: flex;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.header-content {
-    display: inline-flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-.main-page {
-    border: 1px solid black;
-    padding: 5px 10px;
-}
-
-.content-box{
-    border: 1px solid black;
-    padding: 20px;
-    width: 50%;
-    margin: 0 auto;
-}
-.nav-link {
-    color: rgb(143, 221, 244);
-    text-decoration: none;
-    margin-left: 10px;
-}
-
-.nav-link:hover {
-    text-decoration: underline;
-}
-
-footer {
+  }
+  
+  header {
     display: flex;
     justify-content: center;
-    gap: 10px;
-    margin-top: 30px;
-}
-
-.social-icon {
+    align-items: center;
+  }
+  
+  .main-page {
+    border: 2px solid black;
+    padding: 5px 10px;
+    margin-right: 20px;
+  }
+  
+  .nav-links {
+    display: flex;
+  }
+  
+  .nav-link {
+    color: lightblue;
+    margin-right: 10px;
     text-decoration: none;
-}
-
-.social-icon:hover {
-    text-decoration: underline;
-}
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .social-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+  }
+  
