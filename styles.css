@@ -49,11 +49,10 @@ body {
     padding: 10px;
     margin-right: 10px;
     margin-left: 10%;
-    width:300px;
   }
   
   .photo {
-    width: 100px; /* Adjust this value to change the size of the photo */
+    width: 400px; /* Adjust this value to change the size of the photo */
     height: auto;
   }
   
