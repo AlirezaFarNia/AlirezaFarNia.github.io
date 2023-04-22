@@ -20,13 +20,13 @@ body {
   }
   
   .nav-links {
-    font-family:'Raleway';
-    font-weight: 200;
     display: flex;
     margin-right: 25%;
   }
   
   .nav-link {
+    font-family:'Raleway';
+    font-weight: 200;
     color: rgb(5, 185, 245);
     margin-right: 10px;
     text-decoration: none;
