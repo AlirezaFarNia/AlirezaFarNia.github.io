@@ -56,7 +56,7 @@ body {
     border: 2px solid black;
     padding: 20px;
     max-width: 40%; /* Adjust this value to change the width of the bio box */
-    margin-left: 15%;
+    margin-right: 15%;
   }  
 
   footer {
