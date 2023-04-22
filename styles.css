@@ -15,15 +15,15 @@ body {
     font-weight: 400;
     border: 2px solid black;
     padding: 5px 10px;
-    margin-right: 20px;
-    margin-left: 20%;
+    margin-right: 25px;
+    margin-left: 25%;
   }
   
   .nav-links {
     font-family:'Raleway';
     font-weight: 200;
     display: flex;
-    margin-right: 20%;
+    margin-right: 25%;
   }
   
   .nav-link {
@@ -31,7 +31,31 @@ body {
     margin-right: 10px;
     text-decoration: none;
   }
+  main {
+    display: flex;
+    justify-content: center;
+  }
   
+  .content-wrapper {
+    display: flex;
+    max-width: 800px; /* Adjust the value based on your preferred content width */
+  }
+  
+  .photo-box {
+    margin-right: 20px;
+  }
+  
+  .profile-photo {
+    width: 150px; /* Adjust the value based on your preferred photo size */
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .bio-box {
+    max-width: 600px; /* Adjust the value based on your preferred bio box width */
+    text-align: justify;
+  }
+
   footer {
     display: flex;
     justify-content: center;
