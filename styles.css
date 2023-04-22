@@ -13,11 +13,13 @@ body {
   .main-page {
     border: 2px solid black;
     padding: 5px 10px;
-    margin-right: 300px;
+    margin-right: 30px;
+    margin-left: 30%;
   }
   
   .nav-links {
     display: flex;
+    margin-right: 30%;
   }
   
   .nav-link {
