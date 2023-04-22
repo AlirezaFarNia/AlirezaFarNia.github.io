@@ -53,7 +53,7 @@ body {
   }
   
   .photo {
-    width: 200px; /* Adjust this value to change the size of the photo */
+    width: 100px; /* Adjust this value to change the size of the photo */
     height: auto;
   }
   
