@@ -11,20 +11,23 @@ body {
   }
   
   .main-page {
+    font-family:'Raleway' ;
+    font-weight: 400;
     border: 2px solid black;
     padding: 5px 10px;
-    margin-right: 30px;
-    margin-left: 30%;
+    margin-right: 20px;
+    margin-left: 20%;
   }
   
   .nav-links {
     font-family:'Raleway';
+    font-weight: 200;
     display: flex;
-    margin-right: 30%;
+    margin-right: 20%;
   }
   
   .nav-link {
-    color: rgb(37, 195, 248);
+    color: rgb(5, 185, 245);
     margin-right: 10px;
     text-decoration: none;
   }
