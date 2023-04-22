@@ -42,10 +42,10 @@ body {
   .photo-box {
     border: 2px solid rgb(5, 185, 245);
     padding: 10px;
-    margin-right: 20px;
+    margin-right: 10px;
   }
   
-  .profile-photo {
+  .photo {
     width: 100px; /* Adjust this value to change the size of the photo */
     height: auto;
   }
