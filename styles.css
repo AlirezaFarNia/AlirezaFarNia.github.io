@@ -31,30 +31,30 @@ body {
     margin-right: 10px;
     text-decoration: none;
   }
-  main {
+
+  .content {
     display: flex;
     justify-content: center;
-  }
-  
-  .content-wrapper {
-    display: flex;
-    max-width: 800px; /* Adjust the value based on your preferred content width */
+    align-items: center;
+    margin-top: 40px;
   }
   
   .photo-box {
+    border: 2px solid rgb(5, 185, 245);
+    padding: 10px;
     margin-right: 20px;
   }
   
   .profile-photo {
-    width: 150px; /* Adjust the value based on your preferred photo size */
+    width: 100px; /* Adjust this value to change the size of the photo */
     height: auto;
-    border-radius: 50%;
   }
   
   .bio-box {
-    max-width: 600px; /* Adjust the value based on your preferred bio box width */
-    text-align: justify;
-  }
+    border: 2px solid black;
+    padding: 20px;
+    max-width: 60%; /* Adjust this value to change the width of the bio box */
+  }  
 
   footer {
     display: flex;
