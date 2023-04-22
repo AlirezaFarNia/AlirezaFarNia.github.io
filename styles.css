@@ -13,7 +13,7 @@ body {
   .main-page {
     border: 2px solid black;
     padding: 5px 10px;
-    margin-right: 50px;
+    margin-right: 300px;
   }
   
   .nav-links {
@@ -21,7 +21,7 @@ body {
   }
   
   .nav-link {
-    color: lightblue;
+    color: rgb(37, 195, 248);
     margin-right: 10px;
     text-decoration: none;
   }
