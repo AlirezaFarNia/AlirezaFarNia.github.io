@@ -46,7 +46,7 @@ header {
   }
   
 .docstring-box {
-    width: 50%;
+    width: 60%;
     margin: 20px auto;
     padding: 10px;
     background-color: #f5f5f5;
@@ -69,8 +69,8 @@ header {
     width: 100%;
     margin: 20px auto;
     /* padding: 10px; */
-    /* background-color: #ffffff; */
-    border: 2px solid #43b8f6;
+    background-color: #ffffff;
+    /* border: 2px solid #43b8f6; */
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
@@ -86,7 +86,7 @@ header {
     
 .project-description {
     flex: 9;
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 200;
     text-align: justify;
     border-left: 1px solid #43b8f6;
