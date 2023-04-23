@@ -89,6 +89,12 @@ body {
     margin-bottom: 20px;
   }
   
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
   .project-box {
     display: flex;
     flex-direction: row;
