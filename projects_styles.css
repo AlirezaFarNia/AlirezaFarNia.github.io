@@ -78,7 +78,7 @@ header {
 .project-icon {
     flex: 1;
     /* text-align: left; */
-    position: relative;
+    /* position: relative; */
     justify-content: center;
     padding-left: 10px;
   }
@@ -97,9 +97,9 @@ header {
   
 .project-icon img {
     /* max-width: 100%; */
-    position: absolute;
+    /* position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-50%); */
     width: 100%;
     height: auto;
 
