@@ -15,7 +15,7 @@ header {
   align-items: center;
 }
 
-.main-page {
+.header-top-left-box {
   font-family:'Raleway' ;
   font-weight: 400;
   border: 2px solid black;
@@ -24,18 +24,19 @@ header {
   margin-left: 25%;
 }
 
-.nav-links {
+.header-nav-links {
   display: flex;
   margin-right: 25%;
 }
 
-.nav-link {
+.header-nav-link {
   font-family:'Raleway';
   font-weight: 200;
   color: rgb(5, 185, 245);
   margin-right: 10px;
   text-decoration: none;
 }
+
 
 .content {
     display: flex;
@@ -44,7 +45,7 @@ header {
   }
   
   .docstring-box {
-    width: 90%;
+    width: 70%;
     margin: 20px auto;
     padding: 10px;
     background-color: #f5f5f5;
@@ -77,6 +78,19 @@ header {
     text-align: center;
   }
 
+    
+  .project-description {
+    flex: 9;
+    padding-left: 10px;
+    border-left: 1px solid black;
+  }
+  
+  .project-icon img {
+    /* max-width: 100%; */
+    width: 50%;
+    height: auto;
+  }
+
   footer {
     display: flex;
     justify-content: center;
@@ -87,15 +101,4 @@ header {
     width: 30px;
     height: 30px;
     margin-right: 10px;
-  }
-  
-  .project-description {
-    flex: 9;
-    padding-left: 10px;
-  }
-  
-  .project-icon img {
-    /* max-width: 100%; */
-    width: 20px;
-    height: auto;
   }
